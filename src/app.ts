@@ -177,7 +177,7 @@ function displayPosts(posts: Post[]) {
                 <p><ion-icon name="heart" class="last"></ion-icon> <span></span></p>
             </div>
         `;
-        // Attach click listener to each post card
+       
         postElement.addEventListener('click', async () => {
             await loadPostComments(post.id);
         });
