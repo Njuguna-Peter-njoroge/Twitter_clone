@@ -50,7 +50,7 @@ const commentsContainer = document.getElementById('comments-container') as HTMLD
 const postCountSpan = document.getElementById('post-count') as HTMLSpanElement;
 const commentCountSpan = document.getElementById('comment-count') as HTMLSpanElement;
 
-// Profile display elements - Renamed IDs for clarity and consistency with HTML
+
 const profileUserNameElement = document.getElementById('profile-user-name') as HTMLHeadingElement;
 const profileUsernameElement = document.getElementById('profile-username') as HTMLParagraphElement;
 const profileDescriptionElement = document.getElementById('profile-description') as HTMLParagraphElement;
